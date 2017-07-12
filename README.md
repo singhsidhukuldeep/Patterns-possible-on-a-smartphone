@@ -22,14 +22,17 @@ The Android imposes these **conditions** on patterns:
 ## Algorithm
 
 A pattern can be pretty much anything you want with the following constraints:
-It needs to contain at least four dots (and obviously, no more than nine).
-Once a dot is lit, it can't be used again.
-You can use one or several "knight moves", such as in `[0 5 4 2]`:
+
+- It needs to contain at least four dots (and obviously, no more than nine).
+
+- Once a dot is lit, it can't be used again.
+
+- You can use one or several "knight moves", such as in `[0 5 4 2]`:
 
 
 In this example, the knight move is between 0 and 5.
-You cannot go over an unlit dot without lighting it. For example, the pattern [0 2 1 4] is illegal, because moving your finger between 0 and 2 will light 1.
-Once a dot is lit, you can use it to reach another unlit dot. For example, both [0 4 3 5] and [0 4 5 3] are legal.
+You cannot go over an unlit dot without lighting it. For example, the pattern `[0 2 1 4]` is illegal, because moving your finger between 0 and 2 will light 1.
+Once a dot is lit, you can use it to reach another unlit dot. For example, both `[0 4 3 5]` and `[0 4 5 3]` are legal.
 
 I tried hard to enlist all possible solutions using basic principles of discrete maths, but its meant to be done by brute force.
 
@@ -41,7 +44,7 @@ Then the algorithm just iterates through this listing, splitting each listing in
 
 ## Results
 
-The `code` in `main.cpp` can be modified to ptint the results to an external .txt file.
+The `code` in `main.cpp` can be modified to print the results to an external .txt file.
 
 The all the possible results can be found on `results.txt`
 
