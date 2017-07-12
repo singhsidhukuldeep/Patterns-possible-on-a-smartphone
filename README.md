@@ -36,11 +36,11 @@ Once a dot is lit, you can use it to reach another unlit dot. For example, both 
 
 I tried hard to enlist all possible solutions using basic principles of discrete maths, but its meant to be done by brute force.
 
-Using basic symmetries, Mathematica and basic coding algorithms we can arrive at the requisite answer.
+Using basic symmetries, Mathematics and basic coding algorithms we can arrive at the requisite answer.
 
 First let us enlist all possible permutations  of length greater than 4 from integers 1-9.
 
-Then the algorithm just iterates through this listing, splitting each listing into an array of integers,and then, for each number, asks if the next number is a valid step given the history of this path (which is just the array up to that point). Obviously, we could reverse the process and just generate the right opts, but it would mean that we would have to iterate through every single step in every path, which would be unnecessary in most cases.
+Then the algorithm iterates through this listing, splitting each listing into an array of integers,and then, for each number, asks if the next number is a valid step given the history of this path (which is just the array up to that point). Obviously, we could reverse the process and just generate the right opts, but it would mean that we would have to iterate through every single step in every path, which would be unnecessary in most cases.
 
 ## Results
 
