@@ -13,7 +13,7 @@ The Android imposes these **conditions** on patterns:
 2. The dots in the pattern must all be distinct.
 3. If the line segment connecting any two consecutive dots in the pattern passes through any other dots, the other dots must have previously been in the pattern.
 
-##Sample testing
+## Sample testing
 
 ![Running](https://github.com/singhsidhukuldeep/Patterns-possible-on-a-smartphone/raw/master/assets/action.gif)
 
