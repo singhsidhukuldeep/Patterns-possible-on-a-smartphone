@@ -1,3 +1,14 @@
+/*
+//main.cpp
+//Patterns possible on a smartphone
+//Author: Kuldeep Singh Sidhu
+
+CONTACT
+GitHub: github.com/singhsidhukuldeep
+LinkedIn: linkedin.com/in/kuldeep-singh-sidhu-96a67170/
+Facebook: facebook.com/singhsidhukuldeep
+*/
+
 #include <iostream>
 #include <vector>
 #include <fstream>
